@@ -76,7 +76,8 @@ usuarioPromise
         `)
     }).catch(function(error){
         console.log('deu ruim',error)
-    })
+    });
+
 /* obterUsuario(function resolverUsuario(error, usuario){
     if(error){
         console.error('DEU RUIM no USUARIO',error)
